@@ -2,7 +2,7 @@
 
 This project contains end-to-end SQL data cleaning and analysis on a Zepto e-commerce inventory dataset using PostgreSQL.
 
-🔍 What’s Included
+1. 🔍 What’s Included
 
 Data import & table creation
 
@@ -14,7 +14,7 @@ SQL analysis on pricing, discounts, and inventory
 
 Category-wise insights and stock evaluation
 
-🛠 Tech Used
+2. 🛠 Tech Used
 
 PostgreSQL
 
@@ -22,7 +22,7 @@ DBeaver / pgAdmin
 
 CSV dataset
 
-📂 Dataset Description
+3. 📂 Dataset Description
 
 The dataset includes the following important fields:
 
@@ -38,7 +38,7 @@ The dataset includes the following important fields:
 - weightgmns	: Product weight in grams
 - outofstock	: Stock status (True/False)
 
-⭐ Key Queries
+4. ⭐ Key Queries
 
 Cleaning text fields
 
@@ -50,17 +50,24 @@ Average discount by category
 
 Stock distribution and top products
 
-📈 Key Insights
+5. 📊 Business Insights
+Found top 10 best-value products based on discount percentage
 
-Discount patterns across categories
+Identified high-MRP products that are currently out of stock
 
-Stock imbalance between products
+Estimated potential revenue for each product category
 
-Detection of price inconsistencies
+Filtered expensive products (MRP > ₹500) with minimal discount
 
-Low/Medium/Bulk inventory grouping
+Ranked top 5 categories offering highest average discounts
 
-🚀 How to Run
+Calculated price per gram to identify value-for-money products
+
+Grouped products based on weight into Low, Medium, and Bulk categories
+
+Measured total inventory weight per product category
+
+6. 🚀 How to Run
 
 Create PostgreSQL DB
 
